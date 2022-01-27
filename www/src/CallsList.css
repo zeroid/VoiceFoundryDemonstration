@@ -1,0 +1,11 @@
+.At-text {
+    font-style: italic;
+}
+
+.PhoneNumber-text {
+    font-weight: bold;
+}
+
+.CallsList > ul > li {
+    padding-bottom: 20px;
+}

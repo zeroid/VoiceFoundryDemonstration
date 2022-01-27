@@ -1,0 +1,18 @@
+{
+    "RequestType": "Create",
+    "ServiceToken": "arn:aws:lambda:us-east-1:551352683362:function:sam-app-ProviderframeworkonEvent83C1D0A7-91Khp0J1k3FG",
+    "ResponseURL": "https://cloudformation-custom-resource-response-useast1.s3.amazonaws.com/arn%3Aaws%3Acloudformation%3Aus-east-1%3A551352683362%3Astack/sam-app/474a42f0-6b10-11eb-aeff-1226ff6bb471%7CContactFlow%7Ca2336448-5153-4935-ac68-f16069460ece?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220122T035823Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Credential=AKIA6L7Q4OWT5Q62VZN2%2F20220122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=09ffd5fbc6be63c76144f0fe5c3a07efba7334f7781cfe69b145b25888cd5646",
+    "StackId": "arn:aws:cloudformation:us-east-1:551352683362:stack/sam-app/474a42f0-6b10-11eb-aeff-1226ff6bb471",
+    "RequestId": "a2336448-5153-4935-ac68-f16069460ece",
+    "LogicalResourceId": "ContactFlow",
+    "ResourceType": "AWS::CloudFormation::CustomResource",
+    "ResourceProperties": {
+        "ServiceToken": "arn:aws:lambda:us-east-1:551352683362:function:sam-app-ProviderframeworkonEvent83C1D0A7-91Khp0J1k3FG",
+        "Type": "CONTACT_FLOW",
+        "Description": "Demonstration contact flow for Voice Foundry project",
+        "InstanceId": "20d853e7-3960-4a5a-80c9-f198ee84cb1a",
+        "Content": "{\"Version\":\"2019-10-30\",\"StartAction\":\"efa7d3c6-7420-42a0-ab0a-af80d4443dab\",\"Metadata\":{\"entryPointPosition\":{\"x\":20,\"y\":20},\"snapToGrid\":false,\"ActionMetadata\":{\"4e9618b6-85f1-4082-bf2d-ffc8a0b4b24c\":{\"position\":{\"x\":743,\"y\":31}},\"efa7d3c6-7420-42a0-ab0a-af80d4443dab\":{\"position\":{\"x\":94,\"y\":182}},\"c76c094f-89f8-4819-bf47-b838d3e6a52f\":{\"position\":{\"x\":346,\"y\":232},\"overrideConsoleVoice\":false,\"defaultVoice\":\"Conversational\"},\"0218ffce-29f1-4bf9-9026-457f7016b29c\":{\"position\":{\"x\":583,\"y\":219},\"useDynamic\":false}}},\"Actions\":[{\"Identifier\":\"4e9618b6-85f1-4082-bf2d-ffc8a0b4b24c\",\"Type\":\"DisconnectParticipant\",\"Parameters\":{},\"Transitions\":{}},{\"Identifier\":\"efa7d3c6-7420-42a0-ab0a-af80d4443dab\",\"Parameters\":{\"FlowLoggingBehavior\":\"Enabled\"},\"Transitions\":{\"NextAction\":\"c76c094f-89f8-4819-bf47-b838d3e6a52f\",\"Errors\":[],\"Conditions\":[]},\"Type\":\"UpdateFlowLoggingBehavior\"},{\"Identifier\":\"c76c094f-89f8-4819-bf47-b838d3e6a52f\",\"Parameters\":{\"TextToSpeechVoice\":\"Joanna\"},\"Transitions\":{\"NextAction\":\"0218ffce-29f1-4bf9-9026-457f7016b29c\",\"Errors\":[],\"Conditions\":[]},\"Type\":\"UpdateContactTextToSpeechVoice\"},{\"Identifier\":\"0218ffce-29f1-4bf9-9026-457f7016b29c\",\"Parameters\":{\"Text\":\"Welcome to the vanity phone number generator demonstration for Voice Foundry\"},\"Transitions\":{\"NextAction\":\"4e9618b6-85f1-4082-bf2d-ffc8a0b4b24c\",\"Errors\":[],\"Conditions\":[]},\"Type\":\"MessageParticipant\"}]}",
+        "Tags": {},
+        "Name": "Vanity number generator"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "version": "2.0",
+    "routeKey": "GET /api/phonenumbers/{phoneNumber}/vanitynumbers",
+    "rawPath": "/api/phonenumbers/+17205428339/vanitynumbers",
+    "rawQueryString": "",
+    "headers": {
+        "content-length": "0",
+        "host": "koha265wd2.execute-api.us-east-1.amazonaws.com",
+        "user-agent": "Amazon CloudFront",
+        "via": "2.0 6858de87a9a441b83cd7cbdcd1cf2b40.cloudfront.net (CloudFront)",
+        "x-amz-cf-id": "ZcpTxl7IFOFYzriHHwOIxY15GhxpApTCzsjtZdeySYbm-JSsBxvzQg==",
+        "x-amzn-trace-id": "Root=1-61f0d1f7-3a4eaa761a0df40950ccc77f",
+        "x-forwarded-for": "2601:280:4581:7330:c120:5ec6:d8ac:ebb3, 52.46.47.72",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https"
+    },
+    "requestContext": {
+        "accountId": "551352683362",
+        "apiId": "koha265wd2",
+        "domainName": "koha265wd2.execute-api.us-east-1.amazonaws.com",
+        "domainPrefix": "koha265wd2",
+        "http": {
+            "method": "GET",
+            "path": "/api/phonenumbers/+17205428339/vanitynumbers",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "2601:280:4581:7330:c120:5ec6:d8ac:ebb3",
+            "userAgent": "Amazon CloudFront"
+        },
+        "requestId": "MiW-uhpqoAMEJOw=",
+        "routeKey": "GET /api/phonenumbers/{phoneNumber}/vanitynumbers",
+        "stage": "$default",
+        "time": "26/Jan/2022:04:45:43 +0000",
+        "timeEpoch": 1643172343613
+    },
+    "pathParameters": {
+        "phoneNumber": "+17205428339"
+    },
+    "isBase64Encoded": false
+}

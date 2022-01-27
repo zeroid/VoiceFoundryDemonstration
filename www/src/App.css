@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content {
+  flex-grow: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.TryIt-container {
+  flex-grow: 1;
+  padding: 0px 20px;
+}
+
+.CallsList-container {
+  padding: 0px 20px;
+  background-color: lightgrey;
+}
+
+.App-footer {
+  flex-direction: row;
+  background-color: #282c34;
+  color: white;
+  text-align: right;
+}

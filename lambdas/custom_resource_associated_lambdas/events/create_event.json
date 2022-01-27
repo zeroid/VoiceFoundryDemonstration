@@ -1,0 +1,16 @@
+{
+    "RequestType": "Create",
+    "ServiceToken": "arn:aws:lambda:us-east-1:551352683362:function:sam-app-AssociatedLambdasCustomResourceProviderfra-xKkXMDwEETTo",
+    "ResponseURL": "https://cloudformation-custom-resource-response-useast1.s3.amazonaws.com/arn%3Aaws%3Acloudformation%3Aus-east-1%3A551352683362%3Astack/sam-app/a0a2b4f0-7eb9-11ec-9731-0a6448fecb99%7CAssociatedLambdasCustomResource%7C4b5392e5-8bf8-441f-821b-6fb7187ab8e1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220126T150930Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Credential=AKIA6L7Q4OWT5Q62VZN2%2F20220126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=679258138e1adf09475b8ed07a226027f0ec0006598fd8e76abe402832f4b773",
+    "StackId": "arn:aws:cloudformation:us-east-1:551352683362:stack/sam-app/a0a2b4f0-7eb9-11ec-9731-0a6448fecb99",
+    "RequestId": "4b5392e5-8bf8-441f-821b-6fb7187ab8e1",
+    "LogicalResourceId": "AssociatedLambdasCustomResource",
+    "ResourceType": "AWS::CloudFormation::CustomResource",
+    "ResourceProperties": {
+        "ServiceToken": "arn:aws:lambda:us-east-1:551352683362:function:sam-app-AssociatedLambdasCustomResourceProviderfra-xKkXMDwEETTo",
+        "InstanceId": "arn:aws:connect:us-east-1:551352683362:instance/20d853e7-3960-4a5a-80c9-f198ee84cb1a",
+        "LambdaFunctionArns": [
+            "arn:aws:lambda:us-east-1:551352683362:function:sam-app-ResponseOrchestrationFunctionDBFD9079-9tNrbeIgqfxd"
+        ]
+    }
+}
